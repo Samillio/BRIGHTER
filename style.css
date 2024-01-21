@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-dark.bg-primary {
+  background-color: #007BFF; /* Change to your desired color */
+}
+
+/* Styling for the Contact Navigation Bar */
+.navbar-contact {
+  background-color: #f8f9fa; /* Set background color */
+  border-bottom: 1px solid #dee2e6; /* Add a bottom border for separation */
+}
+
+.navbar-contact ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align both horizontally */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-contact li {
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+  margin-right: 20px; /* Adjust the spacing between items */
+}
+
+.navbar-contact .nav-link {
+  color: #495057; /* Set text color */
+  font-weight: bold; /* Make text bold */
+  text-decoration: none; /* Remove underlines */
+  transition: color 0.3s ease-in-out; /* Add a smooth color transition */
+}
+
+.navbar-contact .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.navbar-contact i {
+  margin-right: 5px; /* Adjust the spacing between icon and text */
+  color: #007bff; /* Set icon color */
+}
+
+/* Carousel Styles */
+#carouselExampleIndicators {
+  margin-top: 0px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Change to your desired color */
+}
+
+.carousel-text h2 {
+  font-size: 2.5rem; /* Change to your desired font size */
+  margin-bottom: 10px;
+}
+
+.carousel-text p {
+  font-size: 1.25rem; /* Change to your desired font size */
+}
+
+/* Carousel Controls Styles */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007BFF; /* Change to your desired color */
+}
+
+/* Optional: Adjust the size of the carousel controls for smaller screens */
+@media (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+
+/* About Us Section */
+#about {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 30px 0; /* Adjust padding to reduce vertical space */
+  text-align: center; /* Center-align text */
+}
+
+#about .row {
+  justify-content: center; /* Center-align columns horizontally */
+  margin-right: 0; /* Remove default margin on the right side */
+  margin-left: 0; /* Remove default margin on the left side */
+}
+
+#about h2 {
+  font-size: 2.5rem; /* Change to your desired font size */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.25rem; /* Change to your desired font size */
+  line-height: 1.6; /* Adjust line height for better readability */
+  text-align: center; /* Justify text for a clean look */
+  
+}
+
+/* Optionally, if you want to center the image in the right column */
+#about img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #343a40; /* Set background color */
+  color: #fff; /* Set text color */
+  text-align: center;
+  padding: 15px 0; /* Add padding to the footer */
+}
+
